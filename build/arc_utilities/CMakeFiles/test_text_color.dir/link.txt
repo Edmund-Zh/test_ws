@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -Wextra -Wconversion -Werror -Wshadow   CMakeFiles/test_text_color.dir/tests/test_text_color.cpp.o  -o /home/edmund/test_ws/devel/lib/arc_utilities/test_text_color -rdynamic 

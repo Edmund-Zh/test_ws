@@ -1,0 +1,8 @@
+prefix=/home/edmund/test_ws/install
+
+Name: arc_utilities
+Description: Description of arc_utilities
+Version: 0.0.1
+Cflags: -I/home/edmund/test_ws/install/include -I/usr/include/eigen3 -I/usr/include
+Libs: -L/home/edmund/test_ws/install/lib -larc_utilities /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: roscpp rospy std_msgs sensor_msgs geometry_msgs

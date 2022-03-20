@@ -1,0 +1,8 @@
+prefix=/home/edmund/test_ws/install
+
+Name: cv_pub
+Description: Description of cv_pub
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/edmund/test_ws/install/lib 
+Requires: 

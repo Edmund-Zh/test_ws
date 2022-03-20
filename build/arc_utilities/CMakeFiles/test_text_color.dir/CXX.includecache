@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/edmund/test_ws/src/arc_utilities/include/arc_utilities/text_color.hpp
+
+/home/edmund/test_ws/src/arc_utilities/tests/test_text_color.cpp
+arc_utilities/text_color.hpp
+-
+iostream
+-
+
