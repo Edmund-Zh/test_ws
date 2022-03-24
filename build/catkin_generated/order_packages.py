@@ -2,4 +2,4 @@
 source_root_dir = "/home/edmund/test_ws/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/edmund/test_ws/devel;/home/edmund/catkin_ws/devel;/opt/ros/kinetic".split(';') if "/home/edmund/test_ws/devel;/home/edmund/catkin_ws/devel;/opt/ros/kinetic" != "" else []
+underlay_workspaces = "/home/edmund/BNUKsearch_ws/devel;/home/edmund/test_ws/devel;/home/edmund/catkin_ws/devel;/opt/ros/kinetic".split(';') if "/home/edmund/BNUKsearch_ws/devel;/home/edmund/test_ws/devel;/home/edmund/catkin_ws/devel;/opt/ros/kinetic" != "" else []

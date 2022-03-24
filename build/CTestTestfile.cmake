@@ -7,4 +7,4 @@
 subdirs(gtest)
 subdirs(arc_utilities)
 subdirs(cv_pub)
-subdirs(sdf_tools)
+subdirs(sdf_pub)

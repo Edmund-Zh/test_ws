@@ -1059,7 +1059,7 @@ pysdf_tools: cmake_check_build_system
 
 # fast build rule for target.
 pysdf_tools/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/pysdf_tools.dir/build.make sdf_tools/CMakeFiles/pysdf_tools.dir/build
+	$(MAKE) -f sdf_pub/CMakeFiles/pysdf_tools.dir/build.make sdf_pub/CMakeFiles/pysdf_tools.dir/build
 .PHONY : pysdf_tools/fast
 
 #=============================================================================
@@ -1072,7 +1072,7 @@ sdf_tools_tutorial: cmake_check_build_system
 
 # fast build rule for target.
 sdf_tools_tutorial/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools_tutorial.dir/build.make sdf_tools/CMakeFiles/sdf_tools_tutorial.dir/build
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/build.make sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/build
 .PHONY : sdf_tools_tutorial/fast
 
 #=============================================================================
@@ -1085,34 +1085,8 @@ image_2d_sdf_node: cmake_check_build_system
 
 # fast build rule for target.
 image_2d_sdf_node/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/image_2d_sdf_node.dir/build.make sdf_tools/CMakeFiles/image_2d_sdf_node.dir/build
+	$(MAKE) -f sdf_pub/CMakeFiles/image_2d_sdf_node.dir/build.make sdf_pub/CMakeFiles/image_2d_sdf_node.dir/build
 .PHONY : image_2d_sdf_node/fast
-
-#=============================================================================
-# Target rules for targets named voxel_grid_test
-
-# Build rule for target.
-voxel_grid_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 voxel_grid_test
-.PHONY : voxel_grid_test
-
-# fast build rule for target.
-voxel_grid_test/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/voxel_grid_test.dir/build.make sdf_tools/CMakeFiles/voxel_grid_test.dir/build
-.PHONY : voxel_grid_test/fast
-
-#=============================================================================
-# Target rules for targets named _sdf_tools_generate_messages_check_deps_TaggedObjectCollisionMap
-
-# Build rule for target.
-_sdf_tools_generate_messages_check_deps_TaggedObjectCollisionMap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _sdf_tools_generate_messages_check_deps_TaggedObjectCollisionMap
-.PHONY : _sdf_tools_generate_messages_check_deps_TaggedObjectCollisionMap
-
-# fast build rule for target.
-_sdf_tools_generate_messages_check_deps_TaggedObjectCollisionMap/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/_sdf_tools_generate_messages_check_deps_TaggedObjectCollisionMap.dir/build.make sdf_tools/CMakeFiles/_sdf_tools_generate_messages_check_deps_TaggedObjectCollisionMap.dir/build
-.PHONY : _sdf_tools_generate_messages_check_deps_TaggedObjectCollisionMap/fast
 
 #=============================================================================
 # Target rules for targets named compute_convex_segments_test
@@ -1124,73 +1098,47 @@ compute_convex_segments_test: cmake_check_build_system
 
 # fast build rule for target.
 compute_convex_segments_test/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/compute_convex_segments_test.dir/build.make sdf_tools/CMakeFiles/compute_convex_segments_test.dir/build
+	$(MAKE) -f sdf_pub/CMakeFiles/compute_convex_segments_test.dir/build.make sdf_pub/CMakeFiles/compute_convex_segments_test.dir/build
 .PHONY : compute_convex_segments_test/fast
 
 #=============================================================================
-# Target rules for targets named _sdf_tools_generate_messages_check_deps_CollisionMap
+# Target rules for targets named voxel_grid_test
 
 # Build rule for target.
-_sdf_tools_generate_messages_check_deps_CollisionMap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _sdf_tools_generate_messages_check_deps_CollisionMap
-.PHONY : _sdf_tools_generate_messages_check_deps_CollisionMap
+voxel_grid_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 voxel_grid_test
+.PHONY : voxel_grid_test
 
 # fast build rule for target.
-_sdf_tools_generate_messages_check_deps_CollisionMap/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/_sdf_tools_generate_messages_check_deps_CollisionMap.dir/build.make sdf_tools/CMakeFiles/_sdf_tools_generate_messages_check_deps_CollisionMap.dir/build
-.PHONY : _sdf_tools_generate_messages_check_deps_CollisionMap/fast
+voxel_grid_test/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/voxel_grid_test.dir/build.make sdf_pub/CMakeFiles/voxel_grid_test.dir/build
+.PHONY : voxel_grid_test/fast
 
 #=============================================================================
-# Target rules for targets named _sdf_tools_generate_messages_check_deps_SDF
+# Target rules for targets named sdf_pub_generate_messages
 
 # Build rule for target.
-_sdf_tools_generate_messages_check_deps_SDF: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _sdf_tools_generate_messages_check_deps_SDF
-.PHONY : _sdf_tools_generate_messages_check_deps_SDF
+sdf_pub_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdf_pub_generate_messages
+.PHONY : sdf_pub_generate_messages
 
 # fast build rule for target.
-_sdf_tools_generate_messages_check_deps_SDF/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/_sdf_tools_generate_messages_check_deps_SDF.dir/build.make sdf_tools/CMakeFiles/_sdf_tools_generate_messages_check_deps_SDF.dir/build
-.PHONY : _sdf_tools_generate_messages_check_deps_SDF/fast
+sdf_pub_generate_messages/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_pub_generate_messages.dir/build.make sdf_pub/CMakeFiles/sdf_pub_generate_messages.dir/build
+.PHONY : sdf_pub_generate_messages/fast
 
 #=============================================================================
-# Target rules for targets named sdf_tools_geneus
+# Target rules for targets named _sdf_pub_generate_messages_check_deps_TaggedObjectCollisionMap
 
 # Build rule for target.
-sdf_tools_geneus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools_geneus
-.PHONY : sdf_tools_geneus
+_sdf_pub_generate_messages_check_deps_TaggedObjectCollisionMap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _sdf_pub_generate_messages_check_deps_TaggedObjectCollisionMap
+.PHONY : _sdf_pub_generate_messages_check_deps_TaggedObjectCollisionMap
 
 # fast build rule for target.
-sdf_tools_geneus/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools_geneus.dir/build.make sdf_tools/CMakeFiles/sdf_tools_geneus.dir/build
-.PHONY : sdf_tools_geneus/fast
-
-#=============================================================================
-# Target rules for targets named sdf_tools_generate_messages
-
-# Build rule for target.
-sdf_tools_generate_messages: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools_generate_messages
-.PHONY : sdf_tools_generate_messages
-
-# fast build rule for target.
-sdf_tools_generate_messages/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools_generate_messages.dir/build.make sdf_tools/CMakeFiles/sdf_tools_generate_messages.dir/build
-.PHONY : sdf_tools_generate_messages/fast
-
-#=============================================================================
-# Target rules for targets named sdf_tools_generate_messages_nodejs
-
-# Build rule for target.
-sdf_tools_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools_generate_messages_nodejs
-.PHONY : sdf_tools_generate_messages_nodejs
-
-# fast build rule for target.
-sdf_tools_generate_messages_nodejs/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools_generate_messages_nodejs.dir/build.make sdf_tools/CMakeFiles/sdf_tools_generate_messages_nodejs.dir/build
-.PHONY : sdf_tools_generate_messages_nodejs/fast
+_sdf_pub_generate_messages_check_deps_TaggedObjectCollisionMap/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_TaggedObjectCollisionMap.dir/build.make sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_TaggedObjectCollisionMap.dir/build
+.PHONY : _sdf_pub_generate_messages_check_deps_TaggedObjectCollisionMap/fast
 
 #=============================================================================
 # Target rules for targets named visualization_msgs_generate_messages_py
@@ -1202,21 +1150,8 @@ visualization_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 visualization_msgs_generate_messages_py/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make sdf_tools/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
+	$(MAKE) -f sdf_pub/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make sdf_pub/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
 .PHONY : visualization_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named _sdf_tools_generate_messages_check_deps_ComputeSDF
-
-# Build rule for target.
-_sdf_tools_generate_messages_check_deps_ComputeSDF: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _sdf_tools_generate_messages_check_deps_ComputeSDF
-.PHONY : _sdf_tools_generate_messages_check_deps_ComputeSDF
-
-# fast build rule for target.
-_sdf_tools_generate_messages_check_deps_ComputeSDF/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/_sdf_tools_generate_messages_check_deps_ComputeSDF.dir/build.make sdf_tools/CMakeFiles/_sdf_tools_generate_messages_check_deps_ComputeSDF.dir/build
-.PHONY : _sdf_tools_generate_messages_check_deps_ComputeSDF/fast
 
 #=============================================================================
 # Target rules for targets named visualization_msgs_generate_messages_cpp
@@ -1228,60 +1163,21 @@ visualization_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 visualization_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make sdf_tools/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f sdf_pub/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make sdf_pub/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
 .PHONY : visualization_msgs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named visualization_msgs_generate_messages_eus
+# Target rules for targets named _sdf_pub_generate_messages_check_deps_CollisionMap
 
 # Build rule for target.
-visualization_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visualization_msgs_generate_messages_eus
-.PHONY : visualization_msgs_generate_messages_eus
+_sdf_pub_generate_messages_check_deps_CollisionMap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _sdf_pub_generate_messages_check_deps_CollisionMap
+.PHONY : _sdf_pub_generate_messages_check_deps_CollisionMap
 
 # fast build rule for target.
-visualization_msgs_generate_messages_eus/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make sdf_tools/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
-.PHONY : visualization_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named visualization_msgs_generate_messages_lisp
-
-# Build rule for target.
-visualization_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visualization_msgs_generate_messages_lisp
-.PHONY : visualization_msgs_generate_messages_lisp
-
-# fast build rule for target.
-visualization_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make sdf_tools/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
-.PHONY : visualization_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named visualization_msgs_generate_messages_nodejs
-
-# Build rule for target.
-visualization_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 visualization_msgs_generate_messages_nodejs
-.PHONY : visualization_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-visualization_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make sdf_tools/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
-.PHONY : visualization_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named sdf_tools_genlisp
-
-# Build rule for target.
-sdf_tools_genlisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools_genlisp
-.PHONY : sdf_tools_genlisp
-
-# fast build rule for target.
-sdf_tools_genlisp/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools_genlisp.dir/build.make sdf_tools/CMakeFiles/sdf_tools_genlisp.dir/build
-.PHONY : sdf_tools_genlisp/fast
+_sdf_pub_generate_messages_check_deps_CollisionMap/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_CollisionMap.dir/build.make sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_CollisionMap.dir/build
+.PHONY : _sdf_pub_generate_messages_check_deps_CollisionMap/fast
 
 #=============================================================================
 # Target rules for targets named estimate_distance_test
@@ -1293,34 +1189,99 @@ estimate_distance_test: cmake_check_build_system
 
 # fast build rule for target.
 estimate_distance_test/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/estimate_distance_test.dir/build.make sdf_tools/CMakeFiles/estimate_distance_test.dir/build
+	$(MAKE) -f sdf_pub/CMakeFiles/estimate_distance_test.dir/build.make sdf_pub/CMakeFiles/estimate_distance_test.dir/build
 .PHONY : estimate_distance_test/fast
 
 #=============================================================================
-# Target rules for targets named sdf_tools
+# Target rules for targets named _sdf_pub_generate_messages_check_deps_SDF
 
 # Build rule for target.
-sdf_tools: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools
-.PHONY : sdf_tools
+_sdf_pub_generate_messages_check_deps_SDF: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _sdf_pub_generate_messages_check_deps_SDF
+.PHONY : _sdf_pub_generate_messages_check_deps_SDF
 
 # fast build rule for target.
-sdf_tools/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools.dir/build.make sdf_tools/CMakeFiles/sdf_tools.dir/build
-.PHONY : sdf_tools/fast
+_sdf_pub_generate_messages_check_deps_SDF/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_SDF.dir/build.make sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_SDF.dir/build
+.PHONY : _sdf_pub_generate_messages_check_deps_SDF/fast
 
 #=============================================================================
-# Target rules for targets named sdf_tools_genpy
+# Target rules for targets named visualization_msgs_generate_messages_nodejs
 
 # Build rule for target.
-sdf_tools_genpy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools_genpy
-.PHONY : sdf_tools_genpy
+visualization_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualization_msgs_generate_messages_nodejs
+.PHONY : visualization_msgs_generate_messages_nodejs
 
 # fast build rule for target.
-sdf_tools_genpy/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools_genpy.dir/build.make sdf_tools/CMakeFiles/sdf_tools_genpy.dir/build
-.PHONY : sdf_tools_genpy/fast
+visualization_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make sdf_pub/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
+.PHONY : visualization_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named sdf_pub_genlisp
+
+# Build rule for target.
+sdf_pub_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdf_pub_genlisp
+.PHONY : sdf_pub_genlisp
+
+# fast build rule for target.
+sdf_pub_genlisp/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_pub_genlisp.dir/build.make sdf_pub/CMakeFiles/sdf_pub_genlisp.dir/build
+.PHONY : sdf_pub_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named visualization_msgs_generate_messages_eus
+
+# Build rule for target.
+visualization_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualization_msgs_generate_messages_eus
+.PHONY : visualization_msgs_generate_messages_eus
+
+# fast build rule for target.
+visualization_msgs_generate_messages_eus/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make sdf_pub/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
+.PHONY : visualization_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named sdf_pub_gennodejs
+
+# Build rule for target.
+sdf_pub_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdf_pub_gennodejs
+.PHONY : sdf_pub_gennodejs
+
+# fast build rule for target.
+sdf_pub_gennodejs/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_pub_gennodejs.dir/build.make sdf_pub/CMakeFiles/sdf_pub_gennodejs.dir/build
+.PHONY : sdf_pub_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named _sdf_pub_generate_messages_check_deps_ComputeSDF
+
+# Build rule for target.
+_sdf_pub_generate_messages_check_deps_ComputeSDF: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _sdf_pub_generate_messages_check_deps_ComputeSDF
+.PHONY : _sdf_pub_generate_messages_check_deps_ComputeSDF
+
+# fast build rule for target.
+_sdf_pub_generate_messages_check_deps_ComputeSDF/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_ComputeSDF.dir/build.make sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_ComputeSDF.dir/build
+.PHONY : _sdf_pub_generate_messages_check_deps_ComputeSDF/fast
+
+#=============================================================================
+# Target rules for targets named visualization_msgs_generate_messages_lisp
+
+# Build rule for target.
+visualization_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 visualization_msgs_generate_messages_lisp
+.PHONY : visualization_msgs_generate_messages_lisp
+
+# fast build rule for target.
+visualization_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make sdf_pub/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
+.PHONY : visualization_msgs_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named _headers
@@ -1332,86 +1293,125 @@ _headers: cmake_check_build_system
 
 # fast build rule for target.
 _headers/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/_headers.dir/build.make sdf_tools/CMakeFiles/_headers.dir/build
+	$(MAKE) -f sdf_pub/CMakeFiles/_headers.dir/build.make sdf_pub/CMakeFiles/_headers.dir/build
 .PHONY : _headers/fast
 
 #=============================================================================
-# Target rules for targets named sdf_tools_generate_messages_cpp
+# Target rules for targets named sdf_pub_gencpp
 
 # Build rule for target.
-sdf_tools_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools_generate_messages_cpp
-.PHONY : sdf_tools_generate_messages_cpp
+sdf_pub_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdf_pub_gencpp
+.PHONY : sdf_pub_gencpp
 
 # fast build rule for target.
-sdf_tools_generate_messages_cpp/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools_generate_messages_cpp.dir/build.make sdf_tools/CMakeFiles/sdf_tools_generate_messages_cpp.dir/build
-.PHONY : sdf_tools_generate_messages_cpp/fast
+sdf_pub_gencpp/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_pub_gencpp.dir/build.make sdf_pub/CMakeFiles/sdf_pub_gencpp.dir/build
+.PHONY : sdf_pub_gencpp/fast
 
 #=============================================================================
-# Target rules for targets named sdf_tools_gencpp
+# Target rules for targets named sdf_pub_generate_messages_eus
 
 # Build rule for target.
-sdf_tools_gencpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools_gencpp
-.PHONY : sdf_tools_gencpp
+sdf_pub_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdf_pub_generate_messages_eus
+.PHONY : sdf_pub_generate_messages_eus
 
 # fast build rule for target.
-sdf_tools_gencpp/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools_gencpp.dir/build.make sdf_tools/CMakeFiles/sdf_tools_gencpp.dir/build
-.PHONY : sdf_tools_gencpp/fast
+sdf_pub_generate_messages_eus/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_pub_generate_messages_eus.dir/build.make sdf_pub/CMakeFiles/sdf_pub_generate_messages_eus.dir/build
+.PHONY : sdf_pub_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named sdf_tools_generate_messages_eus
+# Target rules for targets named sdf_pub_geneus
 
 # Build rule for target.
-sdf_tools_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools_generate_messages_eus
-.PHONY : sdf_tools_generate_messages_eus
+sdf_pub_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdf_pub_geneus
+.PHONY : sdf_pub_geneus
 
 # fast build rule for target.
-sdf_tools_generate_messages_eus/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools_generate_messages_eus.dir/build.make sdf_tools/CMakeFiles/sdf_tools_generate_messages_eus.dir/build
-.PHONY : sdf_tools_generate_messages_eus/fast
+sdf_pub_geneus/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_pub_geneus.dir/build.make sdf_pub/CMakeFiles/sdf_pub_geneus.dir/build
+.PHONY : sdf_pub_geneus/fast
 
 #=============================================================================
-# Target rules for targets named sdf_tools_generate_messages_lisp
+# Target rules for targets named sdf_pub_generate_messages_lisp
 
 # Build rule for target.
-sdf_tools_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools_generate_messages_lisp
-.PHONY : sdf_tools_generate_messages_lisp
+sdf_pub_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdf_pub_generate_messages_lisp
+.PHONY : sdf_pub_generate_messages_lisp
 
 # fast build rule for target.
-sdf_tools_generate_messages_lisp/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools_generate_messages_lisp.dir/build.make sdf_tools/CMakeFiles/sdf_tools_generate_messages_lisp.dir/build
-.PHONY : sdf_tools_generate_messages_lisp/fast
+sdf_pub_generate_messages_lisp/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_pub_generate_messages_lisp.dir/build.make sdf_pub/CMakeFiles/sdf_pub_generate_messages_lisp.dir/build
+.PHONY : sdf_pub_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named sdf_tools_generate_messages_py
+# Target rules for targets named sdf_pub_generate_messages_nodejs
 
 # Build rule for target.
-sdf_tools_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools_generate_messages_py
-.PHONY : sdf_tools_generate_messages_py
+sdf_pub_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdf_pub_generate_messages_nodejs
+.PHONY : sdf_pub_generate_messages_nodejs
 
 # fast build rule for target.
-sdf_tools_generate_messages_py/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools_generate_messages_py.dir/build.make sdf_tools/CMakeFiles/sdf_tools_generate_messages_py.dir/build
-.PHONY : sdf_tools_generate_messages_py/fast
+sdf_pub_generate_messages_nodejs/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_pub_generate_messages_nodejs.dir/build.make sdf_pub/CMakeFiles/sdf_pub_generate_messages_nodejs.dir/build
+.PHONY : sdf_pub_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named sdf_tools_gennodejs
+# Target rules for targets named sdf_pub_genpy
 
 # Build rule for target.
-sdf_tools_gennodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools_gennodejs
-.PHONY : sdf_tools_gennodejs
+sdf_pub_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdf_pub_genpy
+.PHONY : sdf_pub_genpy
 
 # fast build rule for target.
-sdf_tools_gennodejs/fast:
-	$(MAKE) -f sdf_tools/CMakeFiles/sdf_tools_gennodejs.dir/build.make sdf_tools/CMakeFiles/sdf_tools_gennodejs.dir/build
-.PHONY : sdf_tools_gennodejs/fast
+sdf_pub_genpy/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_pub_genpy.dir/build.make sdf_pub/CMakeFiles/sdf_pub_genpy.dir/build
+.PHONY : sdf_pub_genpy/fast
+
+#=============================================================================
+# Target rules for targets named sdf_pub_generate_messages_py
+
+# Build rule for target.
+sdf_pub_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdf_pub_generate_messages_py
+.PHONY : sdf_pub_generate_messages_py
+
+# fast build rule for target.
+sdf_pub_generate_messages_py/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_pub_generate_messages_py.dir/build.make sdf_pub/CMakeFiles/sdf_pub_generate_messages_py.dir/build
+.PHONY : sdf_pub_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named sdf_pub_generate_messages_cpp
+
+# Build rule for target.
+sdf_pub_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdf_pub_generate_messages_cpp
+.PHONY : sdf_pub_generate_messages_cpp
+
+# fast build rule for target.
+sdf_pub_generate_messages_cpp/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_pub_generate_messages_cpp.dir/build.make sdf_pub/CMakeFiles/sdf_pub_generate_messages_cpp.dir/build
+.PHONY : sdf_pub_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named sdf_pub
+
+# Build rule for target.
+sdf_pub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sdf_pub
+.PHONY : sdf_pub
+
+# fast build rule for target.
+sdf_pub/fast:
+	$(MAKE) -f sdf_pub/CMakeFiles/sdf_pub.dir/build.make sdf_pub/CMakeFiles/sdf_pub.dir/build
+.PHONY : sdf_pub/fast
 
 # Help Target
 help:
@@ -1497,31 +1497,31 @@ help:
 	@echo "... pysdf_tools"
 	@echo "... sdf_tools_tutorial"
 	@echo "... image_2d_sdf_node"
-	@echo "... voxel_grid_test"
-	@echo "... _sdf_tools_generate_messages_check_deps_TaggedObjectCollisionMap"
 	@echo "... compute_convex_segments_test"
-	@echo "... _sdf_tools_generate_messages_check_deps_CollisionMap"
-	@echo "... _sdf_tools_generate_messages_check_deps_SDF"
-	@echo "... sdf_tools_geneus"
-	@echo "... sdf_tools_generate_messages"
-	@echo "... sdf_tools_generate_messages_nodejs"
+	@echo "... voxel_grid_test"
+	@echo "... sdf_pub_generate_messages"
+	@echo "... _sdf_pub_generate_messages_check_deps_TaggedObjectCollisionMap"
 	@echo "... visualization_msgs_generate_messages_py"
-	@echo "... _sdf_tools_generate_messages_check_deps_ComputeSDF"
 	@echo "... visualization_msgs_generate_messages_cpp"
-	@echo "... visualization_msgs_generate_messages_eus"
-	@echo "... visualization_msgs_generate_messages_lisp"
-	@echo "... visualization_msgs_generate_messages_nodejs"
-	@echo "... sdf_tools_genlisp"
+	@echo "... _sdf_pub_generate_messages_check_deps_CollisionMap"
 	@echo "... estimate_distance_test"
-	@echo "... sdf_tools"
-	@echo "... sdf_tools_genpy"
+	@echo "... _sdf_pub_generate_messages_check_deps_SDF"
+	@echo "... visualization_msgs_generate_messages_nodejs"
+	@echo "... sdf_pub_genlisp"
+	@echo "... visualization_msgs_generate_messages_eus"
+	@echo "... sdf_pub_gennodejs"
+	@echo "... _sdf_pub_generate_messages_check_deps_ComputeSDF"
+	@echo "... visualization_msgs_generate_messages_lisp"
 	@echo "... _headers"
-	@echo "... sdf_tools_generate_messages_cpp"
-	@echo "... sdf_tools_gencpp"
-	@echo "... sdf_tools_generate_messages_eus"
-	@echo "... sdf_tools_generate_messages_lisp"
-	@echo "... sdf_tools_generate_messages_py"
-	@echo "... sdf_tools_gennodejs"
+	@echo "... sdf_pub_gencpp"
+	@echo "... sdf_pub_generate_messages_eus"
+	@echo "... sdf_pub_geneus"
+	@echo "... sdf_pub_generate_messages_lisp"
+	@echo "... sdf_pub_generate_messages_nodejs"
+	@echo "... sdf_pub_genpy"
+	@echo "... sdf_pub_generate_messages_py"
+	@echo "... sdf_pub_generate_messages_cpp"
+	@echo "... sdf_pub"
 .PHONY : help
 
 

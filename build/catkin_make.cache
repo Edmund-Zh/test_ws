@@ -1,2 +1,2 @@
-arc_utilities:cv_pub:sdf_tools
--DCATKIN_DEVEL_PREFIX=/home/edmund/test_ws/devel -DCMAKE_INSTALL_PREFIX=/home/edmund/test_ws/install -G Unix Makefiles
+arc_utilities:cv_pub:sdf_pub
+-DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=Yes -DCATKIN_DEVEL_PREFIX=/home/edmund/test_ws/devel -DCMAKE_INSTALL_PREFIX=/home/edmund/test_ws/install -G Unix Makefiles
