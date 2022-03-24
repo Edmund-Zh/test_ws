@@ -356,3 +356,16 @@ sdf_pub/CMakeFiles/compute_convex_segments_test.dir/src/compute_convex_segments_
  /usr/include/eigen3/unsupported/Eigen/AutoDiff
  /usr/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffJacobian.h
  /usr/include/eigen3/unsupported/Eigen/src/AutoDiff/AutoDiffScalar.h
+ /usr/include/x86_64-linux-gnu/bits/select.h
+ /usr/include/x86_64-linux-gnu/bits/select2.h
+ /usr/include/x86_64-linux-gnu/bits/sigset.h
+ /usr/include/x86_64-linux-gnu/bits/stat.h
+ /usr/include/x86_64-linux-gnu/bits/time.h
+ /usr/include/x86_64-linux-gnu/bits/timex.h
+ /usr/include/x86_64-linux-gnu/bits/types.h
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h
+ /usr/include/x86_64-linux-gnu/sys/select.h
+ /usr/include/x86_64-linux-gnu/sys/stat.h
+ /usr/include/x86_64-linux-gnu/sys/time.h
+ /usr/include/x86_64-linux-gnu/sys/timeb.h

@@ -1050,32 +1050,6 @@ pic_sub/fast:
 .PHONY : pic_sub/fast
 
 #=============================================================================
-# Target rules for targets named pysdf_tools
-
-# Build rule for target.
-pysdf_tools: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pysdf_tools
-.PHONY : pysdf_tools
-
-# fast build rule for target.
-pysdf_tools/fast:
-	$(MAKE) -f sdf_pub/CMakeFiles/pysdf_tools.dir/build.make sdf_pub/CMakeFiles/pysdf_tools.dir/build
-.PHONY : pysdf_tools/fast
-
-#=============================================================================
-# Target rules for targets named sdf_tools_tutorial
-
-# Build rule for target.
-sdf_tools_tutorial: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sdf_tools_tutorial
-.PHONY : sdf_tools_tutorial
-
-# fast build rule for target.
-sdf_tools_tutorial/fast:
-	$(MAKE) -f sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/build.make sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/build
-.PHONY : sdf_tools_tutorial/fast
-
-#=============================================================================
 # Target rules for targets named image_2d_sdf_node
 
 # Build rule for target.
@@ -1087,32 +1061,6 @@ image_2d_sdf_node: cmake_check_build_system
 image_2d_sdf_node/fast:
 	$(MAKE) -f sdf_pub/CMakeFiles/image_2d_sdf_node.dir/build.make sdf_pub/CMakeFiles/image_2d_sdf_node.dir/build
 .PHONY : image_2d_sdf_node/fast
-
-#=============================================================================
-# Target rules for targets named compute_convex_segments_test
-
-# Build rule for target.
-compute_convex_segments_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 compute_convex_segments_test
-.PHONY : compute_convex_segments_test
-
-# fast build rule for target.
-compute_convex_segments_test/fast:
-	$(MAKE) -f sdf_pub/CMakeFiles/compute_convex_segments_test.dir/build.make sdf_pub/CMakeFiles/compute_convex_segments_test.dir/build
-.PHONY : compute_convex_segments_test/fast
-
-#=============================================================================
-# Target rules for targets named voxel_grid_test
-
-# Build rule for target.
-voxel_grid_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 voxel_grid_test
-.PHONY : voxel_grid_test
-
-# fast build rule for target.
-voxel_grid_test/fast:
-	$(MAKE) -f sdf_pub/CMakeFiles/voxel_grid_test.dir/build.make sdf_pub/CMakeFiles/voxel_grid_test.dir/build
-.PHONY : voxel_grid_test/fast
 
 #=============================================================================
 # Target rules for targets named sdf_pub_generate_messages
@@ -1178,19 +1126,6 @@ _sdf_pub_generate_messages_check_deps_CollisionMap: cmake_check_build_system
 _sdf_pub_generate_messages_check_deps_CollisionMap/fast:
 	$(MAKE) -f sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_CollisionMap.dir/build.make sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_CollisionMap.dir/build
 .PHONY : _sdf_pub_generate_messages_check_deps_CollisionMap/fast
-
-#=============================================================================
-# Target rules for targets named estimate_distance_test
-
-# Build rule for target.
-estimate_distance_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 estimate_distance_test
-.PHONY : estimate_distance_test
-
-# fast build rule for target.
-estimate_distance_test/fast:
-	$(MAKE) -f sdf_pub/CMakeFiles/estimate_distance_test.dir/build.make sdf_pub/CMakeFiles/estimate_distance_test.dir/build
-.PHONY : estimate_distance_test/fast
 
 #=============================================================================
 # Target rules for targets named _sdf_pub_generate_messages_check_deps_SDF
@@ -1494,17 +1429,12 @@ help:
 	@echo "... test_eigen_serialization"
 	@echo "... pic_pub"
 	@echo "... pic_sub"
-	@echo "... pysdf_tools"
-	@echo "... sdf_tools_tutorial"
 	@echo "... image_2d_sdf_node"
-	@echo "... compute_convex_segments_test"
-	@echo "... voxel_grid_test"
 	@echo "... sdf_pub_generate_messages"
 	@echo "... _sdf_pub_generate_messages_check_deps_TaggedObjectCollisionMap"
 	@echo "... visualization_msgs_generate_messages_py"
 	@echo "... visualization_msgs_generate_messages_cpp"
 	@echo "... _sdf_pub_generate_messages_check_deps_CollisionMap"
-	@echo "... estimate_distance_test"
 	@echo "... _sdf_pub_generate_messages_check_deps_SDF"
 	@echo "... visualization_msgs_generate_messages_nodejs"
 	@echo "... sdf_pub_genlisp"

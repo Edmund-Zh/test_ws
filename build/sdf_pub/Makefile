@@ -166,36 +166,6 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-sdf_pub/CMakeFiles/pysdf_tools.dir/rule:
-	cd /home/edmund/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 sdf_pub/CMakeFiles/pysdf_tools.dir/rule
-.PHONY : sdf_pub/CMakeFiles/pysdf_tools.dir/rule
-
-# Convenience name for target.
-pysdf_tools: sdf_pub/CMakeFiles/pysdf_tools.dir/rule
-
-.PHONY : pysdf_tools
-
-# fast build rule for target.
-pysdf_tools/fast:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/pysdf_tools.dir/build.make sdf_pub/CMakeFiles/pysdf_tools.dir/build
-.PHONY : pysdf_tools/fast
-
-# Convenience name for target.
-sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/rule:
-	cd /home/edmund/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/rule
-.PHONY : sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/rule
-
-# Convenience name for target.
-sdf_tools_tutorial: sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/rule
-
-.PHONY : sdf_tools_tutorial
-
-# fast build rule for target.
-sdf_tools_tutorial/fast:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/build.make sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/build
-.PHONY : sdf_tools_tutorial/fast
-
-# Convenience name for target.
 sdf_pub/CMakeFiles/image_2d_sdf_node.dir/rule:
 	cd /home/edmund/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 sdf_pub/CMakeFiles/image_2d_sdf_node.dir/rule
 .PHONY : sdf_pub/CMakeFiles/image_2d_sdf_node.dir/rule
@@ -209,36 +179,6 @@ image_2d_sdf_node: sdf_pub/CMakeFiles/image_2d_sdf_node.dir/rule
 image_2d_sdf_node/fast:
 	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/image_2d_sdf_node.dir/build.make sdf_pub/CMakeFiles/image_2d_sdf_node.dir/build
 .PHONY : image_2d_sdf_node/fast
-
-# Convenience name for target.
-sdf_pub/CMakeFiles/compute_convex_segments_test.dir/rule:
-	cd /home/edmund/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 sdf_pub/CMakeFiles/compute_convex_segments_test.dir/rule
-.PHONY : sdf_pub/CMakeFiles/compute_convex_segments_test.dir/rule
-
-# Convenience name for target.
-compute_convex_segments_test: sdf_pub/CMakeFiles/compute_convex_segments_test.dir/rule
-
-.PHONY : compute_convex_segments_test
-
-# fast build rule for target.
-compute_convex_segments_test/fast:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/compute_convex_segments_test.dir/build.make sdf_pub/CMakeFiles/compute_convex_segments_test.dir/build
-.PHONY : compute_convex_segments_test/fast
-
-# Convenience name for target.
-sdf_pub/CMakeFiles/voxel_grid_test.dir/rule:
-	cd /home/edmund/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 sdf_pub/CMakeFiles/voxel_grid_test.dir/rule
-.PHONY : sdf_pub/CMakeFiles/voxel_grid_test.dir/rule
-
-# Convenience name for target.
-voxel_grid_test: sdf_pub/CMakeFiles/voxel_grid_test.dir/rule
-
-.PHONY : voxel_grid_test
-
-# fast build rule for target.
-voxel_grid_test/fast:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/voxel_grid_test.dir/build.make sdf_pub/CMakeFiles/voxel_grid_test.dir/build
-.PHONY : voxel_grid_test/fast
 
 # Convenience name for target.
 sdf_pub/CMakeFiles/sdf_pub_generate_messages.dir/rule:
@@ -314,21 +254,6 @@ _sdf_pub_generate_messages_check_deps_CollisionMap: sdf_pub/CMakeFiles/_sdf_pub_
 _sdf_pub_generate_messages_check_deps_CollisionMap/fast:
 	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_CollisionMap.dir/build.make sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_CollisionMap.dir/build
 .PHONY : _sdf_pub_generate_messages_check_deps_CollisionMap/fast
-
-# Convenience name for target.
-sdf_pub/CMakeFiles/estimate_distance_test.dir/rule:
-	cd /home/edmund/test_ws/build && $(MAKE) -f CMakeFiles/Makefile2 sdf_pub/CMakeFiles/estimate_distance_test.dir/rule
-.PHONY : sdf_pub/CMakeFiles/estimate_distance_test.dir/rule
-
-# Convenience name for target.
-estimate_distance_test: sdf_pub/CMakeFiles/estimate_distance_test.dir/rule
-
-.PHONY : estimate_distance_test
-
-# fast build rule for target.
-estimate_distance_test/fast:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/estimate_distance_test.dir/build.make sdf_pub/CMakeFiles/estimate_distance_test.dir/build
-.PHONY : estimate_distance_test/fast
 
 # Convenience name for target.
 sdf_pub/CMakeFiles/_sdf_pub_generate_messages_check_deps_SDF.dir/rule:
@@ -585,60 +510,6 @@ sdf_pub/fast:
 	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/sdf_pub.dir/build.make sdf_pub/CMakeFiles/sdf_pub.dir/build
 .PHONY : sdf_pub/fast
 
-src/compute_convex_segments_test.o: src/compute_convex_segments_test.cpp.o
-
-.PHONY : src/compute_convex_segments_test.o
-
-# target to build an object file
-src/compute_convex_segments_test.cpp.o:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/compute_convex_segments_test.dir/build.make sdf_pub/CMakeFiles/compute_convex_segments_test.dir/src/compute_convex_segments_test.cpp.o
-.PHONY : src/compute_convex_segments_test.cpp.o
-
-src/compute_convex_segments_test.i: src/compute_convex_segments_test.cpp.i
-
-.PHONY : src/compute_convex_segments_test.i
-
-# target to preprocess a source file
-src/compute_convex_segments_test.cpp.i:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/compute_convex_segments_test.dir/build.make sdf_pub/CMakeFiles/compute_convex_segments_test.dir/src/compute_convex_segments_test.cpp.i
-.PHONY : src/compute_convex_segments_test.cpp.i
-
-src/compute_convex_segments_test.s: src/compute_convex_segments_test.cpp.s
-
-.PHONY : src/compute_convex_segments_test.s
-
-# target to generate assembly for a file
-src/compute_convex_segments_test.cpp.s:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/compute_convex_segments_test.dir/build.make sdf_pub/CMakeFiles/compute_convex_segments_test.dir/src/compute_convex_segments_test.cpp.s
-.PHONY : src/compute_convex_segments_test.cpp.s
-
-src/estimate_distance_test.o: src/estimate_distance_test.cpp.o
-
-.PHONY : src/estimate_distance_test.o
-
-# target to build an object file
-src/estimate_distance_test.cpp.o:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/estimate_distance_test.dir/build.make sdf_pub/CMakeFiles/estimate_distance_test.dir/src/estimate_distance_test.cpp.o
-.PHONY : src/estimate_distance_test.cpp.o
-
-src/estimate_distance_test.i: src/estimate_distance_test.cpp.i
-
-.PHONY : src/estimate_distance_test.i
-
-# target to preprocess a source file
-src/estimate_distance_test.cpp.i:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/estimate_distance_test.dir/build.make sdf_pub/CMakeFiles/estimate_distance_test.dir/src/estimate_distance_test.cpp.i
-.PHONY : src/estimate_distance_test.cpp.i
-
-src/estimate_distance_test.s: src/estimate_distance_test.cpp.s
-
-.PHONY : src/estimate_distance_test.s
-
-# target to generate assembly for a file
-src/estimate_distance_test.cpp.s:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/estimate_distance_test.dir/build.make sdf_pub/CMakeFiles/estimate_distance_test.dir/src/estimate_distance_test.cpp.s
-.PHONY : src/estimate_distance_test.cpp.s
-
 src/image_2d_sdf_node.o: src/image_2d_sdf_node.cpp.o
 
 .PHONY : src/image_2d_sdf_node.o
@@ -665,33 +536,6 @@ src/image_2d_sdf_node.s: src/image_2d_sdf_node.cpp.s
 src/image_2d_sdf_node.cpp.s:
 	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/image_2d_sdf_node.dir/build.make sdf_pub/CMakeFiles/image_2d_sdf_node.dir/src/image_2d_sdf_node.cpp.s
 .PHONY : src/image_2d_sdf_node.cpp.s
-
-src/sdf_pub/bindings.o: src/sdf_pub/bindings.cpp.o
-
-.PHONY : src/sdf_pub/bindings.o
-
-# target to build an object file
-src/sdf_pub/bindings.cpp.o:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/pysdf_tools.dir/build.make sdf_pub/CMakeFiles/pysdf_tools.dir/src/sdf_pub/bindings.cpp.o
-.PHONY : src/sdf_pub/bindings.cpp.o
-
-src/sdf_pub/bindings.i: src/sdf_pub/bindings.cpp.i
-
-.PHONY : src/sdf_pub/bindings.i
-
-# target to preprocess a source file
-src/sdf_pub/bindings.cpp.i:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/pysdf_tools.dir/build.make sdf_pub/CMakeFiles/pysdf_tools.dir/src/sdf_pub/bindings.cpp.i
-.PHONY : src/sdf_pub/bindings.cpp.i
-
-src/sdf_pub/bindings.s: src/sdf_pub/bindings.cpp.s
-
-.PHONY : src/sdf_pub/bindings.s
-
-# target to generate assembly for a file
-src/sdf_pub/bindings.cpp.s:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/pysdf_tools.dir/build.make sdf_pub/CMakeFiles/pysdf_tools.dir/src/sdf_pub/bindings.cpp.s
-.PHONY : src/sdf_pub/bindings.cpp.s
 
 src/sdf_pub/collision_map.o: src/sdf_pub/collision_map.cpp.o
 
@@ -801,60 +645,6 @@ src/sdf_pub/tagged_object_collision_map.cpp.s:
 	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/sdf_pub.dir/build.make sdf_pub/CMakeFiles/sdf_pub.dir/src/sdf_pub/tagged_object_collision_map.cpp.s
 .PHONY : src/sdf_pub/tagged_object_collision_map.cpp.s
 
-src/sdf_tools_tutorial.o: src/sdf_tools_tutorial.cpp.o
-
-.PHONY : src/sdf_tools_tutorial.o
-
-# target to build an object file
-src/sdf_tools_tutorial.cpp.o:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/build.make sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/src/sdf_tools_tutorial.cpp.o
-.PHONY : src/sdf_tools_tutorial.cpp.o
-
-src/sdf_tools_tutorial.i: src/sdf_tools_tutorial.cpp.i
-
-.PHONY : src/sdf_tools_tutorial.i
-
-# target to preprocess a source file
-src/sdf_tools_tutorial.cpp.i:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/build.make sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/src/sdf_tools_tutorial.cpp.i
-.PHONY : src/sdf_tools_tutorial.cpp.i
-
-src/sdf_tools_tutorial.s: src/sdf_tools_tutorial.cpp.s
-
-.PHONY : src/sdf_tools_tutorial.s
-
-# target to generate assembly for a file
-src/sdf_tools_tutorial.cpp.s:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/build.make sdf_pub/CMakeFiles/sdf_tools_tutorial.dir/src/sdf_tools_tutorial.cpp.s
-.PHONY : src/sdf_tools_tutorial.cpp.s
-
-src/test_voxel_grid.o: src/test_voxel_grid.cpp.o
-
-.PHONY : src/test_voxel_grid.o
-
-# target to build an object file
-src/test_voxel_grid.cpp.o:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/voxel_grid_test.dir/build.make sdf_pub/CMakeFiles/voxel_grid_test.dir/src/test_voxel_grid.cpp.o
-.PHONY : src/test_voxel_grid.cpp.o
-
-src/test_voxel_grid.i: src/test_voxel_grid.cpp.i
-
-.PHONY : src/test_voxel_grid.i
-
-# target to preprocess a source file
-src/test_voxel_grid.cpp.i:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/voxel_grid_test.dir/build.make sdf_pub/CMakeFiles/voxel_grid_test.dir/src/test_voxel_grid.cpp.i
-.PHONY : src/test_voxel_grid.cpp.i
-
-src/test_voxel_grid.s: src/test_voxel_grid.cpp.s
-
-.PHONY : src/test_voxel_grid.s
-
-# target to generate assembly for a file
-src/test_voxel_grid.cpp.s:
-	cd /home/edmund/test_ws/build && $(MAKE) -f sdf_pub/CMakeFiles/voxel_grid_test.dir/build.make sdf_pub/CMakeFiles/voxel_grid_test.dir/src/test_voxel_grid.cpp.s
-.PHONY : src/test_voxel_grid.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -865,18 +655,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... pysdf_tools"
-	@echo "... sdf_tools_tutorial"
 	@echo "... image_2d_sdf_node"
-	@echo "... compute_convex_segments_test"
-	@echo "... voxel_grid_test"
 	@echo "... sdf_pub_generate_messages"
 	@echo "... install/strip"
 	@echo "... _sdf_pub_generate_messages_check_deps_TaggedObjectCollisionMap"
 	@echo "... visualization_msgs_generate_messages_py"
 	@echo "... visualization_msgs_generate_messages_cpp"
 	@echo "... _sdf_pub_generate_messages_check_deps_CollisionMap"
-	@echo "... estimate_distance_test"
 	@echo "... _sdf_pub_generate_messages_check_deps_SDF"
 	@echo "... list_install_components"
 	@echo "... visualization_msgs_generate_messages_nodejs"
@@ -896,18 +681,9 @@ help:
 	@echo "... sdf_pub_generate_messages_py"
 	@echo "... sdf_pub_generate_messages_cpp"
 	@echo "... sdf_pub"
-	@echo "... src/compute_convex_segments_test.o"
-	@echo "... src/compute_convex_segments_test.i"
-	@echo "... src/compute_convex_segments_test.s"
-	@echo "... src/estimate_distance_test.o"
-	@echo "... src/estimate_distance_test.i"
-	@echo "... src/estimate_distance_test.s"
 	@echo "... src/image_2d_sdf_node.o"
 	@echo "... src/image_2d_sdf_node.i"
 	@echo "... src/image_2d_sdf_node.s"
-	@echo "... src/sdf_pub/bindings.o"
-	@echo "... src/sdf_pub/bindings.i"
-	@echo "... src/sdf_pub/bindings.s"
 	@echo "... src/sdf_pub/collision_map.o"
 	@echo "... src/sdf_pub/collision_map.i"
 	@echo "... src/sdf_pub/collision_map.s"
@@ -920,12 +696,6 @@ help:
 	@echo "... src/sdf_pub/tagged_object_collision_map.o"
 	@echo "... src/sdf_pub/tagged_object_collision_map.i"
 	@echo "... src/sdf_pub/tagged_object_collision_map.s"
-	@echo "... src/sdf_tools_tutorial.o"
-	@echo "... src/sdf_tools_tutorial.i"
-	@echo "... src/sdf_tools_tutorial.s"
-	@echo "... src/test_voxel_grid.o"
-	@echo "... src/test_voxel_grid.i"
-	@echo "... src/test_voxel_grid.s"
 .PHONY : help
 
 
