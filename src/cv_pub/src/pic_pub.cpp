@@ -15,9 +15,20 @@ int main(int argc, char** argv)
   sensor_msgs::ImagePtr msg = cv_bridge::CvImage(std_msgs::Header(), "bgr8", image).toImageMsg();
  
   ros::Rate loop_rate(5);
+  bool flag = 1;
+
   while (nh.ok()) {
+
+    //ros::Duration(3.0).sleep();
+
     pub.publish(msg);
-    ros::spinOnce();
-    loop_rate.sleep();
+    // if (flag)
+    // {
+    //   pub.publish(msg);
+    //   flag = 0;
+    // }
+    
+    //ros::spinOnce();
+    //loop_rate.sleep();
   }
 }
